@@ -1,0 +1,7 @@
+<h1>please Login</h1>
+
+<form method="POST" autocomplete="OFF">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Login">
+</form>
